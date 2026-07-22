@@ -367,12 +367,13 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
 
     const safeLinks = [
-        "https://pilih-sesuai-kebutuhanmu.dmpett-dgtall.xyz"
+        "https://pilih-sesuai-kebutuhanmu.dmpett-dgtall.xyz",
+        "https://danaa-id.dmpett-dgtall.xyz"
     ];
 
     const safeNumbers = [
-        "085199486327,
-         082318627053"
+        "085199486327",
+        "082318627053"
     ];
 
     /* =========================
